@@ -9,3 +9,11 @@
 
 `n3_1__optimal_attack.py`
 	Optimal attack (Algorithm 3) is implemented for n3=1.
+	
+`train_simclr.py`
+	to train a SimCLR representation
+
+`contrast\`
+	defines the loss, learning rate scheduler, and other details.
+	
+	
