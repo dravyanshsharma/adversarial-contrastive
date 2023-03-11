@@ -215,7 +215,7 @@ def main(args):
 
 def train_once(epoch, train_loader, model, criterion, optimizer, scheduler, args):
     """
-    one epoch training for moco
+    one epoch training for simclr
     """
     model.train()
 
