@@ -12,3 +12,4 @@ class NCESoftmaxLoss(nn.Module):
     def forward(self, x):
         label = torch.zeros([x.shape[0]]).long().to(x.device)
         return self.criterion(x, label)
+

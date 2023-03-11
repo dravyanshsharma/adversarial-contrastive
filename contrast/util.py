@@ -121,6 +121,28 @@ def set_bn_train(model):
     model.apply(set_bn_train_helper)
 
 
+class BatchNormWrapper(torch.nn.Module):
+    def __init__(self, m):
+        super(BatchNormWrapper, self).__init__()
+        self.m = m
+        self.m.eval()  # Set the batch norm to eval mode
+
+    def forward(self, x):
+        input_type = x.dtype
+        x = self.m(x.float())
+        return x.to(input_type)
+
+
+def wrap_bn_fp16(model):
+    for child_name, child in model.named_children():
+        # if isinstance(child, torch.nn.BatchNorm2d):
+        classname = child.__class__.__name__
+        if classname.find('BatchNorm') != -1:
+            setattr(model, child_name, BatchNormWrapper(child))
+        else:
+            wrap_bn_fp16(child)
+
+
 def moment_update(model, model_ema, m):
     """ model_ema = m * model_ema + (1 - m) model """
     for p1, p2 in zip(model.parameters(), model_ema.parameters()):
