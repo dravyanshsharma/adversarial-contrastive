@@ -1,6 +1,6 @@
 # Experimental supplement to [An Analysis of Robustness of Non-Lipschitz Networks](https://arxiv.org/abs/2010.06154)
 
-Code used in the experiments in JMLR 2023 paper "An Analysis of Robustness of Non-Lipschitz Networks" by Nina Balcan (CMU), Avrim Blum (TTIC), Dravyansh Sharma (CMU), and Hongyang Zhang (U Waterloo), authors ordered alphabetically.
+Code used in the experiments in JMLR 2023 paper "An Analysis of Robustness of Non-Lipschitz Networks" by Nina Balcan (CMU), Avrim Blum (TTIC), Dravyansh Sharma (CMU), and Hongyang Zhang (U Waterloo), authors ordered alphabetically by last name.
 
 
 ## Pre-requisites
@@ -19,11 +19,15 @@ We study our attack and defense in the supervised and self-supervised contrastiv
 
 Our algorithm is able to simultaneously obtain small robust error as well as small abstention rates, in both supervised and self-supervised contrastive learning settings.
 
+<p align="center">
 <img width="370" alt="Screenshot 2023-03-16 at 11 09 25 AM" src="https://user-images.githubusercontent.com/2097750/225660693-04d1702a-5686-4850-9fd1-79508a4885b2.png">
+</p>
 
 Furthermore, our theory and experiments suggest that abstention is necessary to defend in our feature space attack model, and standard techniques without abstention are indefensible.
 
+<p align="center">
 <img width="417" alt="Screenshot 2023-03-16 at 11 11 07 AM" src="https://user-images.githubusercontent.com/2097750/225661160-9aa79749-9f7e-4f2f-96b4-2e12b4ece33a.png">
+</p>
 
 
 ## Summary of files in the repository
