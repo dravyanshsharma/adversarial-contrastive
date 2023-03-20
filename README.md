@@ -62,5 +62,5 @@ For full technical details and experimental results, please check [the paper](ht
 
 
 ## Contact
-{dravyans AT cs.cmu.edu} for further questions related to the paper.
-{dravyans AT cs.cmu.edu} or {hongyang.zhang AT uwaterloo.ca} for further questions related to code.
+dravyans AT cs.cmu.edu for further questions related to the paper.
+dravyans AT cs.cmu.edu or hongyang.zhang AT uwaterloo.ca for further questions related to code.
