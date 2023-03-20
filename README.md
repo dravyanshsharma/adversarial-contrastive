@@ -20,7 +20,7 @@ We study our attack and defense in the supervised and self-supervised contrastiv
 Our algorithm is able to simultaneously obtain small robust error as well as small abstention rates, in both supervised and self-supervised contrastive learning settings.
 
 <p align="center">
-<img width="370" alt="Screenshot 2023-03-16 at 11 09 25 AM" src="https://user-images.githubusercontent.com/2097750/225660693-04d1702a-5686-4850-9fd1-79508a4885b2.png">
+<img width="400" alt="Screenshot 2023-03-16 at 11 09 25 AM" src="https://user-images.githubusercontent.com/2097750/225660693-04d1702a-5686-4850-9fd1-79508a4885b2.png">
 </p>
 
 Furthermore, our theory and experiments suggest that abstention is necessary to defend in our feature space attack model, and standard techniques without abstention are indefensible.
