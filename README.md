@@ -26,7 +26,7 @@ Our algorithm is able to simultaneously obtain small robust error as well as sma
 Furthermore, our theory and experiments suggest that abstention is necessary to defend in our feature space attack model, and standard techniques without abstention are indefensible.
 
 <p align="center">
-<img width="417" alt="Screenshot 2023-03-16 at 11 11 07 AM" src="https://user-images.githubusercontent.com/2097750/225661160-9aa79749-9f7e-4f2f-96b4-2e12b4ece33a.png">
+<img width="700" alt="Screenshot 2023-03-16 at 11 11 07 AM" src="https://user-images.githubusercontent.com/2097750/225661160-9aa79749-9f7e-4f2f-96b4-2e12b4ece33a.png">
 </p>
 
 
